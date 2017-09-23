@@ -1,0 +1,183 @@
+a:link{text-decoration: none;}
+.main{font-size: 30px;
+        font-family:"Lucida Calligraphy";
+        font-style:italic;
+        color:white;
+        padding-left: 15px;
+        }
+.topright{position:relative;
+          display: inline;
+    padding-left: 400px;}
+.topleft{display: inline;  }
+.headerCenter{width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 150px;}
+.headerCenter h1{font-family: cursive;
+                font-size: 45px;
+                color: white;
+                }
+.green{background-color: lawngreen;
+        border-radius: 3px;
+        padding: 3px;}
+
+.headerCenter button{
+    padding:35px;
+    font-size: 20px;
+    border-radius: 40px 10px;
+}
+
+
+#head{padding: 50px;
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;}
+
+.leftmid{margin-left: 60px;}
+
+.leftmid video{display: inline;
+                border-radius: 40px;
+                 margin-top: 150px; }
+
+.rightmid{
+    float: right;
+    margin-right: 100px;
+    font-size:35px;
+    padding-top: 150px;
+    color: slategrey;
+        }
+.bold{font-size: 20px;}
+
+#bu{background-color: deepskyblue;
+        padding: 30px;
+        border-radius: 10px;
+        color: white;}
+.mid{background-image: url("./image/balloon.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+      }
+
+.header{background-image: url("./image/source.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        }
+.sell{background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: tan;
+    font-size: 18px;
+    font-weight:bold;
+
+}
+.sell:hover{color: white;
+            cursor: pointer;}
+#tan{color: tan;
+    font-size: 18px;
+    font-weight:bold;}
+#me{background-color: deepskyblue;
+    border-radius: 6px;
+    padding: 5px;}
+
+.dropdown{display: inline-block;
+            position: relative;}
+.left{
+    display: none;
+    position: absolute;
+    min-width: 230px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: black;}
+.left a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+.left a:hover{background-color: gray;}
+.dropdown:hover .left{display: block;}
+
+.midc{
+    display: none;
+    position: absolute;
+    min-width: 230px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: black;}
+.midc a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+.midc a:hover{background-color: gray;}
+.dropdown:hover .midc{display: block;}
+
+.rightc{
+    display: none;
+    position: absolute;
+    min-width: 230px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: black;}
+.rightc a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+.rightc a:hover{background-color: gray;}
+.dropdown:hover .rightc{display: block;}
+
+.headerall {background-image: url("./image/source.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.login1{margin-top: 120px;
+        width: 500px;
+        float: right;
+        margin-right: 43px;}
+#logtext{color: white;
+        font-weight: bold;
+        font-family: "Droid Sans Mono Slashed";
+        font-size: 25px;
+        }
+.log2{border-radius: 7px;
+        padding: 5px;}
+#jointext{color: navajowhite;
+            }
+.login{margin-top: 150px;}
+.upload{padding: 20px;
+    text-align: center;}
+.headerlog{background: url("./image/odogwu.gif") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+#be{background-color:cornflowerblue;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+     margin-right: 100px;}
+
+#headupload{padding: 50px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: sandybrown;}
+.headerCenterw{width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;}
+.search{border-radius: 7px;
+    padding: 5px;
+    width:500px;}
